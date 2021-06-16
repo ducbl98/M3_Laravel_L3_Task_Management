@@ -13,14 +13,9 @@ class CustomerController extends Controller
         return view('modules.customer.index');
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return Response
-     */
     public function create()
     {
-        //
+        return view('modules.customer.index');
     }
 
     /**
@@ -45,15 +40,9 @@ class CustomerController extends Controller
         //
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return Response
-     */
     public function edit($id)
     {
-        //
+        return view('modules.customer.edit');
     }
 
     /**
@@ -65,7 +54,7 @@ class CustomerController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        return view('modules.customer.index');
     }
 
     /**
